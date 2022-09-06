@@ -20,7 +20,7 @@ public class O1 {
 		double sats2 = (trinn2 - trinn1) * 0.04;
 		double sats3 = (trinn3 - trinn2) * 0.134;
 		double sats4 = (trinn4 - trinn3) * 0.164;
-		
+	
 		
 		if (brutto <= trinn0) {
 			System.out.println("Ikke skatt");
