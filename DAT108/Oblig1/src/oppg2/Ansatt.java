@@ -10,10 +10,10 @@ public class Ansatt {
 	String stilling;
 	int aarslonn;
 	
-	public Ansatt(String fornavn, String etternavn, Kjonn kjonn, String stilling, int aarslonn) {
+	public Ansatt(String fornavn, String etternavn, Kjønn kjønn, String stilling, int aarslonn) {
 		this.fornavn = fornavn;
 		this.etternavn = etternavn;
-		this.kjønn = kjonn;
+		this.kjønn = kjønn;
 		this.stilling = stilling;
 		this.aarslonn = aarslonn;
 	}
@@ -34,8 +34,8 @@ public class Ansatt {
 		this.etternavn = etternavn;
 	}
 	
-	public Kjønn getKjonn(Kjønn kjonn) {
-		return kjonn;
+	public Kjønn getKjonn(Kjønn kjønn) {
+		return kjønn;
 	}
 	
 	public void setKjønn() {
