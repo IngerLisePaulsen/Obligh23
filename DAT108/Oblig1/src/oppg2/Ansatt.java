@@ -18,44 +18,38 @@ public class Ansatt {
 		this.aarslonn = aarslonn;
 	}
 	
-	public String getFornavn(String fornavn) {
+	public String getFornavn() {
 		return fornavn;
 	}
 	
-	public void setFornavn() {
-		this.fornavn = fornavn;
-	}
 	
-	public String getEtternavn(String etternavn) {
+	
+	public String getEtternavn() {
 		return etternavn;
 	}
 	
-	public void setEtternavn() {
-		this.etternavn = etternavn;
-	}
 	
-	public Kjønn getKjonn(Kjønn kjønn) {
+	
+	public Kjønn getKjonn() {
 		return kjønn;
 	}
 	
-	public void setKjønn() {
-		this.kjønn = kjønn;
-	}
 	
-	public String getStilling(String stilling) {
+	
+	public String getStilling() {
 		
 		return stilling;
 	}
-	public void setStilling() {
+	public void setStilling(String stilling) {
 		this.stilling = stilling;
 	}
 	
 	
-	public int getAarslonn(int aarslonn) {
+	public int getAarslonn() {
 		return aarslonn;
 	}
 	
-	public void setAarslonn() {
+	public void setAarslonn(int aarslonn) {
 		this.aarslonn = aarslonn;
 	}
 	
